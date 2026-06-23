@@ -11,28 +11,27 @@ const PLOTLY_URL = "https://cdn.jsdelivr.net/npm/plotly.js@3.6.0/dist/plotly.min
 const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// "system". Default is "dark".
 function determineThemeSetting() {
   let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "dark" : themeSetting;
 }
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
 // "system", the computed theme is determined based on the user's system preference.
 function determineComputedTheme() {
   let themeSetting = determineThemeSetting();
-  if (themeSetting != "system") {
-    return themeSetting;
+
+  if (themeSetting === "system") {
+    return browserPref ? "dark" : "light";
   }
-  return browserPref ? "dark" : "light";
+
+  return themeSetting;
 }
 
 // Set the theme on page load or when explicitly called
 function setTheme(theme) {
-  const use_theme = theme ||
-    localStorage.getItem("theme") ||
-    $("html").attr("data-theme") ||
-    browserPref;
+  const use_theme = theme || determineComputedTheme();
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
@@ -59,7 +58,9 @@ function toggleTheme() {
 // JSON data to be retrieve when the theme is switched. The listener should only be added if the data is
 // actually present on the page.
 import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
+
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
+
 if (plotlyElements.length > 0) {
   document.addEventListener("readystatechange", () => {
     if (document.readyState === "complete") {
@@ -81,14 +82,16 @@ if (plotlyElements.length > 0) {
 
           // Set the theme for the plot and render it
           const theme = (determineComputedTheme() === "dark") ? plotlyDarkLayout : plotlyLightLayout;
+
           if (jsonData.layout) {
             jsonData.layout.template = (jsonData.layout.template) ? { ...theme, ...jsonData.layout.template } : theme;
           } else {
             jsonData.layout = { template: theme };
           }
+
           Plotly.react(chartElement, jsonData.data, jsonData.layout);
         });
-      }
+      };
 
       // Add the script to the document
       document.head.appendChild(script);
@@ -101,15 +104,17 @@ if (plotlyElements.length > 0) {
    ========================================================================== */
 
 $(document).ready(function () {
-  // SCSS SETTINGS - These should be the same as the settings in the relevant files 
+  // SCSS SETTINGS - These should be the same as the settings in the relevant files
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // Default theme is dark unless the user manually chose light.
   setTheme();
+
+  // If the user explicitly chooses "system" in localStorage, follow OS preference.
   window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
+          if (localStorage.getItem("theme") === "system") {
             setTheme(e.matches ? "dark" : "light");
           }
         });
@@ -121,15 +126,19 @@ $(document).ready(function () {
   var bumpIt = function () {
     $("body").css("padding-bottom", "0");
     $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  }
+  };
+
   $(window).resize(function () {
     didResize = true;
   });
+
   setInterval(function () {
     if (didResize) {
       didResize = false;
       bumpIt();
-    }}, 250);
+    }
+  }, 250);
+
   var didResize = false;
   bumpIt();
 
@@ -142,8 +151,7 @@ $(document).ready(function () {
   // Restore the follow menu if toggled on a window resize
   jQuery(window).on('resize', function () {
     if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
-      $(".author__urls").css('display', 'block')
+      $(".author__urls").css('display', 'block');
     }
   });
-
 });
