@@ -1,103 +1,48 @@
-/* Dracula theme */
+/* ==========================================================================
+   DRACULA THEME - LIGHT VERSION
+   ========================================================================== */
 
-$background-color: #282a36;
-$text-color: #f8f8f2;
-$muted-text-color: #bd93f9;
-$primary-color: #bd93f9;
-$border-color: #44475a;
-$footer-background-color: #21222c;
-$link-color: #8be9fd;
-$masthead-link-color: #f8f8f2;
-$masthead-link-color-hover: #ff79c6;
-$navicon-link-color-hover: #ff79c6;
+/* Color codes used for the theme */
+$primary-color              : #7c3aed;
+$gray                       : #6b7280;
+$dark-gray                  : #2b2b3c;
+$darker-gray                : #1f1f2e;
+$light-gray                 : #8b8ca7;
+$lighter-gray               : #e9e6f5;
 
-.page {
-  background-color: #282a36;
-  color: #f8f8f2;
-}
+/* Color codes used for the site */
+$danger-color               : #c43c53;
+$info-color                 : #007c91;
+$notice-color               : #8b8ca7;
+$success-color              : #238636;
+$warning-color              : #b7791f;
 
-body {
-  background-color: #282a36;
-  color: #f8f8f2;
-}
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
 
-.masthead,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background-color: #21222c;
-}
-
-.greedy-nav a,
-.masthead a {
-  color: #f8f8f2;
-}
-
-.greedy-nav a:hover,
-.masthead a:hover {
-  color: #ff79c6;
-}
-
-.page__title,
-.archive__item-title,
-.archive__item-title a,
-.author__name,
-h1, h2, h3, h4, h5, h6 {
-  color: #f8f8f2;
-}
-
-.page__content,
-.archive,
-.archive__item,
-.sidebar,
-.author__bio {
-  color: #f8f8f2;
-}
-
-a {
-  color: #8be9fd;
-}
-
-a:hover {
-  color: #ff79c6;
-}
-
-.notice,
-.notice--primary,
-.notice--info,
-.notice--warning,
-.notice--success,
-.notice--danger {
-  background-color: #44475a;
-  color: #f8f8f2;
-}
-
-code,
-pre {
-  background-color: #21222c;
-  color: #f8f8f2;
-}
-
-table {
-  background-color: #282a36;
-  color: #f8f8f2;
-}
-
-thead {
-  background-color: #21222c;
-}
-
-tr,
-td,
-th {
-  border-color: #44475a;
-}
-
-.page__footer {
-  background-color: #21222c;
-  color: #f8f8f2;
-}
-
-.page__footer a {
-  color: #8be9fd;
+/* Dracula-inspired light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #f8f8ff;
+    --global-footer-bg-color            : #eeeaf8;
+    --global-border-color               : #e0d7f5;
+    --global-dark-border-color          : #b8a9d9;
+    --global-code-background-color      : #eeeaf8;
+    --global-code-text-color            : #2b2b3c;
+    --global-fig-caption-color          : #6b5f8a;
+    --global-link-color                 : #007c91;
+    --global-link-color-hover           : #c026d3;
+    --global-link-color-visited         : #7c3aed;
+    --global-masthead-link-color        : #2b2b3c;
+    --global-masthead-link-color-hover  : #c026d3;
+    --global-text-color                 : #2b2b3c;
+    --global-text-color-light           : #6b5f8a;
+    --global-thead-color                : #eeeaf8;
 }
