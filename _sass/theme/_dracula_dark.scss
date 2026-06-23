@@ -27,24 +27,24 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dracula dark theme activates only when system dark mode is on */
+/* Dracula dark theme activates only when system/browser dark mode is on */
 @media (prefers-color-scheme: dark) {
   :root {
-      --global-base-color                 : #{$primary-color};
-      --global-bg-color                   : #282a36;
-      --global-footer-bg-color            : #21222c;
-      --global-border-color               : #44475a;
-      --global-dark-border-color          : #6272a4;
-      --global-code-background-color      : #21222c;
-      --global-code-text-color            : #f8f8f2;
-      --global-fig-caption-color          : #bd93f9;
-      --global-link-color                 : #8be9fd;
-      --global-link-color-hover           : #ff79c6;
-      --global-link-color-visited         : #bd93f9;
-      --global-masthead-link-color        : #f8f8f2;
-      --global-masthead-link-color-hover  : #ff79c6;
-      --global-text-color                 : #f8f8f2;
-      --global-text-color-light           : #bd93f9;
-      --global-thead-color                : #44475a;
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #282a36;
+    --global-footer-bg-color            : #21222c;
+    --global-border-color               : #44475a;
+    --global-dark-border-color          : #6272a4;
+    --global-code-background-color      : #21222c;
+    --global-code-text-color            : #f8f8f2;
+    --global-fig-caption-color          : #bd93f9;
+    --global-link-color                 : #8be9fd;
+    --global-link-color-hover           : #ff79c6;
+    --global-link-color-visited         : #bd93f9;
+    --global-masthead-link-color        : #f8f8f2;
+    --global-masthead-link-color-hover  : #ff79c6;
+    --global-text-color                 : #f8f8f2;
+    --global-text-color-light           : #bd93f9;
+    --global-thead-color                : #44475a;
   }
 }

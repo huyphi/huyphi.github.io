@@ -1,30 +1,25 @@
-$primary-color              : #343434;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#fff, $primary-color, 50%);
-$lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #f3f3f3;
-$background-light           : #fafafa;
-$background-lighter        : #ffffff;
-$text                      : #343434;
-$text-muted                : #8e8b82;
-$link                      : #343434;
-$link-dark                 : mix(#000, $link, 25%);
-$link-light                : mix(#fff, $link, 25%);
-$footer                    : #e9dcbe;
-$border                    : #e9dcbe;
-$border-light              : mix(#fff, $border, 50%);
+/* ==========================================================================
+   DRACULA THEME - ALUCARD-INSPIRED LIGHT VERSION
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #6c3cbf;  // rich Alucard purple
+$gray                       : #6f6a7c;
+$dark-gray                  : #2b2435;  // dark plum ink
+$darker-gray                : #1f1a29;
+$light-gray                 : #8b8498;
+$lighter-gray               : #ebe6f2;
 
 /* Color codes used for the site */
-$danger-color               : #d35c5c;
-$info-color                 : #88a4d3;
-$notice-color               : #b49368;
-$success-color              : #6eb958;
-$warning-color              : #e0ac16;
+$danger-color               : #b8324f;  // muted Dracula red
+$info-color                 : #007c91;  // deeper cyan for light bg contrast
+$notice-color               : #6f6a7c;
+$success-color              : #2f855a;  // readable green
+$warning-color              : #a16207;  // readable gold/orange
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(43, 36, 53, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -32,32 +27,34 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Light theme for the site */
+/* Alucard-inspired light theme for the site */
 :root {
-  --global-base-color                 : #{$primary-color};
-  --global-bg-color                   : #{$background};
-  --global-footer-bg-color            : #{$footer};
-  --global-border-color               : #{$border};
-  --global-dark-border-color          : #{$text-muted};
-  --global-code-background-color      : #{$background-lighter};
-  --global-code-text-color            : #{$darker-primary-color};
-  --global-fig-caption-color          : #{$text-muted};
-  --global-link-color                 : #{$link};
-  --global-link-color-hover           : #{$link-dark};
-  --global-link-color-visited         : #{$link-light};
-  --global-masthead-link-color        : #{$text};
-  --global-masthead-link-color-hover  : #{$text-muted};
-  --global-text-color                 : #{$text};
-  --global-text-color-light           : #{$text-muted};
-  --global-thead-color                : #{$border-light};
-}
+    --global-base-color                 : #{$primary-color};
 
-footer {
-  color: #{$text};
-}
+    /* Warm cream/parchment background */
+    --global-bg-color                   : #fbf8f0;
+    --global-footer-bg-color            : #f1eadf;
 
-// Do not change the color of the social icons in the feed icons
-.page__footer-follow .social-icons i:not(.fa-rss-square),
-.page__footer-follow .social-icons .svg-inline--fa:not(.fa-rss-square) {
-  color: inherit;
+    /* Borders and surfaces */
+    --global-border-color               : #e4d8c9;
+    --global-dark-border-color          : #b8a9a0;
+    --global-code-background-color      : #f1eadf;
+    --global-code-text-color            : #2b2435;
+
+    /* Text */
+    --global-fig-caption-color          : #6f6a7c;
+    --global-text-color                 : #2b2435;
+    --global-text-color-light           : #6f6a7c;
+
+    /* Links: Dracula cyan/pink adjusted for light background */
+    --global-link-color                 : #007c91;
+    --global-link-color-hover           : #b83280;
+    --global-link-color-visited         : #6c3cbf;
+
+    /* Header/nav */
+    --global-masthead-link-color        : #2b2435;
+    --global-masthead-link-color-hover  : #b83280;
+
+    /* Tables */
+    --global-thead-color                : #f1eadf;
 }
