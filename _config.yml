@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Huy Phi, MD"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming Radiology Resident at the University of Washington | Current Transitional Year Intern at Capital Health"
+  bio              : "Incoming Radiology Resident<br>University of Washington<br><br>Current Transitional Year Intern<br>Capital Health"
   location         : "Philly"
   employer         : "Capital Health NJ"
   uri              : # URL
-  email            : "huyphi3000@gmail.com" 
+  email            : "huyphi@uw.edu" 
 
   # Academic websites
   academia         : # URL
