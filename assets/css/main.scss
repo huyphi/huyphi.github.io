@@ -90,3 +90,13 @@
     aspect-ratio: 1 / 1;
   }
 }
+
+.author__name {
+  color: var(--global-base-color);
+}
+
+.page__title,
+.archive__item-title,
+.archive__item-title a {
+  color: var(--global-base-color);
+}
