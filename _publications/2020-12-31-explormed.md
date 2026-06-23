@@ -13,5 +13,5 @@ share: false
 ---
 This was a preliminary study of the tool BrainCheck, a digital neuro-cognitive testing software, for use in pediatric concussion. [Read about it here!](https://www.explorationpub.com/Journals/em/Article/100127)
 
-<img src="/images/publications/2020_explor_main.png" alt="boxplots for braincheck tests" style="max-width: 700px; width: 100%; border-radius: 10px; margin: 1rem 0;">
-<img src="/images/publications/2020_explor_teaser.png" alt="roc curve" style="max-width: 700px; width: 100%; border-radius: 10px; margin: 1rem 0;">
+<img src="/images/publications/2020_explormed_main.png" alt="boxplots for braincheck tests" style="max-width: 700px; width: 100%; border-radius: 10px; margin: 1rem 0;">
+<img src="/images/publications/2020_explormed_teaser.png" alt="roc curve" style="max-width: 700px; width: 100%; border-radius: 10px; margin: 1rem 0;">
