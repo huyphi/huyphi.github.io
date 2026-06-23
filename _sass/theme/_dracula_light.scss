@@ -1,25 +1,25 @@
 /* ==========================================================================
-   DRACULA THEME - LIGHT VERSION
+   DRACULA THEME - ALUCARD-INSPIRED LIGHT VERSION
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #7c3aed;
-$gray                       : #6b7280;
-$dark-gray                  : #2b2b3c;
-$darker-gray                : #1f1f2e;
-$light-gray                 : #8b8ca7;
-$lighter-gray               : #e9e6f5;
+$primary-color              : #6c3cbf;  // rich alucard purple
+$gray                       : #6f6a7c;
+$dark-gray                  : #2b2435;  // dark plum ink
+$darker-gray                : #1f1a29;
+$light-gray                 : #8b8498;
+$lighter-gray               : #ebe6f2;
 
 /* Color codes used for the site */
-$danger-color               : #c43c53;
-$info-color                 : #007c91;
-$notice-color               : #8b8ca7;
-$success-color              : #238636;
-$warning-color              : #b7791f;
+$danger-color               : #b8324f;  // muted Dracula red
+$info-color                 : #007c91;  // deeper cyan for light bg contrast
+$notice-color               : #6f6a7c;
+$success-color              : #2f855a;  // readable green
+$warning-color              : #a16207;  // readable gold/orange
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(43, 36, 53, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -27,22 +27,34 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dracula-inspired light theme for the site */
+/* Alucard-inspired light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #f8f8ff;
-    --global-footer-bg-color            : #eeeaf8;
-    --global-border-color               : #e0d7f5;
-    --global-dark-border-color          : #b8a9d9;
-    --global-code-background-color      : #eeeaf8;
-    --global-code-text-color            : #2b2b3c;
-    --global-fig-caption-color          : #6b5f8a;
+
+    /* Warm parchment/lavender background */
+    --global-bg-color                   : #f8f5ec;
+    --global-footer-bg-color            : #efe8dc;
+
+    /* Borders and surfaces */
+    --global-border-color               : #ded3c6;
+    --global-dark-border-color          : #b9a9a0;
+    --global-code-background-color      : #efe8dc;
+    --global-code-text-color            : #2b2435;
+
+    /* Text */
+    --global-fig-caption-color          : #6f6a7c;
+    --global-text-color                 : #2b2435;
+    --global-text-color-light           : #6f6a7c;
+
+    /* Links: Dracula cyan/pink, adjusted for light bg */
     --global-link-color                 : #007c91;
-    --global-link-color-hover           : #c026d3;
-    --global-link-color-visited         : #7c3aed;
-    --global-masthead-link-color        : #2b2b3c;
-    --global-masthead-link-color-hover  : #c026d3;
-    --global-text-color                 : #2b2b3c;
-    --global-text-color-light           : #6b5f8a;
-    --global-thead-color                : #eeeaf8;
+    --global-link-color-hover           : #b83280;
+    --global-link-color-visited         : #6c3cbf;
+
+    /* Header/nav */
+    --global-masthead-link-color        : #2b2435;
+    --global-masthead-link-color-hover  : #b83280;
+
+    /* Tables */
+    --global-thead-color                : #efe8dc;
 }
