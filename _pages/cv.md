@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "cv"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,9 +11,15 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **MD**, Drexel University College of Medicine, 2026
+* **BS** in Neuroscience, University of Washington, 2020
+
+Post-Graduate Residency Training
+======
+* Capital Health Medical Center, Hopewell, NJ
+  Transitional Year Residency, 2026-2027 
+* University of Washington, Seattle, WA
+  Diagnostic Radiology Residency, 2027-2031 (expected)
 
 Work experience
 ======
