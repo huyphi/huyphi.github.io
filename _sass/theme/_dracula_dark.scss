@@ -27,9 +27,11 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dracula dark theme activates only when system/browser dark mode is on */
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Manual dark mode from toggle:
+   JS sets <html data-theme="dark"> for dark mode.
+   JS removes data-theme for light mode. */
+
+html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #282a36;
     --global-footer-bg-color            : #21222c;
@@ -46,5 +48,4 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #f8f8f2;
     --global-text-color-light           : #bd93f9;
     --global-thead-color                : #44475a;
-  }
 }
