@@ -258,9 +258,17 @@ a:focus {
   font-weight: 700;
 }
 
-/* Regular nav links hover pink */
-#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item):not(.selected) > a:hover,
-#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item):not(.selected) > a:focus {
+/* Selected/current nav page turns pink on hover */
+#site-nav.greedy-nav .visible-links li.masthead__menu-item.selected:not(.site-title-item) > a:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a.active:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a[aria-current="page"]:hover {
+  color: var(--global-link-color-hover) !important;
+  border-bottom-color: var(--global-link-color-hover) !important;
+}
+
+/* All non-title nav links hover pink */
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a:focus {
   color: var(--global-link-color-hover) !important;
   border-bottom-color: var(--global-link-color-hover) !important;
 }
