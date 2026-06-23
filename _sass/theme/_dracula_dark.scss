@@ -1,21 +1,21 @@
 /* ==========================================================================
-   DRACULA THEME - DARK ONLY
+   DRACULA THEME - DARK VERSION
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #bd93f9;  // purple
-$gray                       : #6272a4;  // comment blue-gray
-$dark-gray                  : #f8f8f2;  // foreground
+$primary-color              : #bd93f9;
+$gray                       : #6272a4;
+$dark-gray                  : #f8f8f2;
 $darker-gray                : #f8f8f2;
 $light-gray                 : #bd93f9;
 $lighter-gray               : #44475a;
 
 /* Color codes used for the site */
-$danger-color               : #ff5555;  // red
-$info-color                 : #8be9fd;  // cyan
-$notice-color               : #6272a4;  // comment
-$success-color              : #50fa7b;  // green
-$warning-color              : #f1fa8c;  // yellow
+$danger-color               : #ff5555;
+$info-color                 : #8be9fd;
+$notice-color               : #6272a4;
+$success-color              : #50fa7b;
+$warning-color              : #f1fa8c;
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
@@ -27,22 +27,24 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dracula dark theme for the site */
-:root {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #282a36;
-    --global-footer-bg-color            : #21222c;
-    --global-border-color               : #44475a;
-    --global-dark-border-color          : #6272a4;
-    --global-code-background-color      : #21222c;
-    --global-code-text-color            : #f8f8f2;
-    --global-fig-caption-color          : #bd93f9;
-    --global-link-color                 : #8be9fd;
-    --global-link-color-hover           : #ff79c6;
-    --global-link-color-visited         : #bd93f9;
-    --global-masthead-link-color        : #f8f8f2;
-    --global-masthead-link-color-hover  : #ff79c6;
-    --global-text-color                 : #f8f8f2;
-    --global-text-color-light           : #bd93f9;
-    --global-thead-color                : #44475a;
+/* Dracula dark theme activates only when system dark mode is on */
+@media (prefers-color-scheme: dark) {
+  :root {
+      --global-base-color                 : #{$primary-color};
+      --global-bg-color                   : #282a36;
+      --global-footer-bg-color            : #21222c;
+      --global-border-color               : #44475a;
+      --global-dark-border-color          : #6272a4;
+      --global-code-background-color      : #21222c;
+      --global-code-text-color            : #f8f8f2;
+      --global-fig-caption-color          : #bd93f9;
+      --global-link-color                 : #8be9fd;
+      --global-link-color-hover           : #ff79c6;
+      --global-link-color-visited         : #bd93f9;
+      --global-masthead-link-color        : #f8f8f2;
+      --global-masthead-link-color-hover  : #ff79c6;
+      --global-text-color                 : #f8f8f2;
+      --global-text-color-light           : #bd93f9;
+      --global-thead-color                : #44475a;
+  }
 }
