@@ -100,3 +100,75 @@
 .page__title a {
   color: var(--global-base-color);
 }
+
+/* ==========================================================================
+   Custom Dracula/Alucard link + navigation colors
+   ========================================================================== */
+
+/* Site-wide links */
+a {
+  color: var(--global-link-color) !important;
+}
+
+a:hover,
+a:focus {
+  color: var(--global-link-color-hover) !important;
+}
+
+/* Navbar background */
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background-color: var(--global-bg-color) !important;
+}
+
+/* Navbar site title / your name */
+.site-title,
+.site-title a,
+.masthead__inner-wrap .site-title,
+.greedy-nav .site-title,
+.greedy-nav .site-title a {
+  color: var(--global-base-color) !important;
+}
+
+/* Navbar links */
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead a {
+  color: var(--global-masthead-link-color) !important;
+}
+
+/* Navbar hover = Dracula pink */
+.greedy-nav a:hover,
+.greedy-nav a:focus,
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a:focus,
+.masthead a:hover,
+.masthead a:focus {
+  color: var(--global-link-color-hover) !important;
+}
+
+/* Current/active navbar page = purple */
+.greedy-nav .visible-links .active a,
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links li.active a,
+.greedy-nav .visible-links li.current a,
+.greedy-nav .visible-links li.current-menu-item a,
+.greedy-nav a[aria-current="page"],
+.masthead a[aria-current="page"] {
+  color: var(--global-base-color) !important;
+  font-weight: 700;
+}
+
+/* Optional: subtle underline for current page */
+.greedy-nav .visible-links .active a,
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links li.active a,
+.greedy-nav .visible-links li.current a,
+.greedy-nav a[aria-current="page"] {
+  border-bottom: 2px solid var(--global-base-color);
+}
