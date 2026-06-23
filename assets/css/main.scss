@@ -174,68 +174,60 @@ a:focus {
 }
 
 /* ==========================================================================
-   Navbar: purple site name + active page styling
+   Navbar: purple site title + selected page underline
    ========================================================================== */
 
-/* Left-most site name / your name: always purple */
-.site-title,
-.site-title:visited,
-.site-title a,
-.site-title a:visited,
-.greedy-nav .site-title,
-.greedy-nav .site-title:visited,
-.greedy-nav .site-title a,
-.greedy-nav .site-title a:visited,
-.masthead .site-title,
-.masthead .site-title:visited,
-.masthead .site-title a,
-.masthead .site-title a:visited {
+/* Left-most site title / name: always purple */
+.greedy-nav .site-title-item > a,
+.greedy-nav .site-title-link,
+.greedy-nav .site-title-link:visited,
+.greedy-nav .site-title-link:hover,
+.greedy-nav .site-title-link:focus {
   color: var(--global-base-color) !important;
 }
 
-/* Regular navbar links */
-.greedy-nav .visible-links a,
-.greedy-nav .hidden-links a,
-.masthead a {
+/* Normal navbar links */
+.greedy-nav .visible-links .masthead__menu-item > a {
   color: var(--global-masthead-link-color) !important;
-  text-decoration: none;
+  text-decoration: none !important;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.25rem;
 }
 
-/* Navbar hover: Dracula pink */
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus,
-.greedy-nav .hidden-links a:hover,
-.greedy-nav .hidden-links a:focus,
-.masthead a:hover,
-.masthead a:focus {
+/* Hover navbar links = Dracula pink */
+.greedy-nav .visible-links .masthead__menu-item > a:hover,
+.greedy-nav .visible-links .masthead__menu-item > a:focus {
   color: var(--global-link-color-hover) !important;
+  border-bottom-color: var(--global-link-color-hover);
 }
 
-/* Current/active navbar page: purple + underline */
-.greedy-nav .visible-links a.active,
-.greedy-nav .visible-links .active a,
-.greedy-nav .visible-links li.active a,
-.greedy-nav .visible-links li.current a,
-.greedy-nav .visible-links li.current-menu-item a,
-.greedy-nav .visible-links a[aria-current="page"],
-.masthead a.active,
-.masthead .active a,
-.masthead a[aria-current="page"] {
+/* Current/selected page = purple + underline */
+.greedy-nav .visible-links .masthead__menu-item.selected:not(.site-title-item) > a,
+.greedy-nav .visible-links .masthead__menu-item > a.active,
+.greedy-nav .visible-links .masthead__menu-item > a[aria-current="page"] {
   color: var(--global-base-color) !important;
-  border-bottom: 2px solid var(--global-base-color);
+  border-bottom: 2px solid var(--global-base-color) !important;
   padding-bottom: 0.25rem;
   font-weight: 700;
 }
 
-/* Keep active page purple even when hovering */
-.greedy-nav .visible-links a.active:hover,
-.greedy-nav .visible-links .active a:hover,
-.greedy-nav .visible-links li.active a:hover,
-.greedy-nav .visible-links li.current a:hover,
-.greedy-nav .visible-links a[aria-current="page"]:hover,
-.masthead a.active:hover,
-.masthead .active a:hover,
-.masthead a[aria-current="page"]:hover {
+/* Keep selected page purple even when hovering */
+.greedy-nav .visible-links .masthead__menu-item.selected:not(.site-title-item) > a:hover,
+.greedy-nav .visible-links .masthead__menu-item > a.active:hover,
+.greedy-nav .visible-links .masthead__menu-item > a[aria-current="page"]:hover {
   color: var(--global-base-color) !important;
-  border-bottom-color: var(--global-base-color);
+  border-bottom-color: var(--global-base-color) !important;
+}
+
+/* Keep site title purple but never underlined */
+.greedy-nav .site-title-item > a,
+.greedy-nav .site-title-item.selected > a {
+  color: var(--global-base-color) !important;
+  border-bottom: 2px solid transparent !important;
+  font-weight: 700;
+}
+
+/* Do not underline the theme toggle icon */
+.greedy-nav .visible-links #theme-toggle > a {
+  border-bottom: none !important;
 }
