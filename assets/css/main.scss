@@ -231,3 +231,44 @@ a:focus {
 .greedy-nav .visible-links #theme-toggle > a {
   border-bottom: none !important;
 }
+
+/* ==========================================================================
+   Force navbar site title/name to always stay purple
+   ========================================================================== */
+
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link,
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link:link,
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link:visited,
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link:hover,
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link:focus,
+#site-nav.greedy-nav .visible-links li.site-title-item > a.site-title-link:active {
+  color: var(--global-base-color) !important;
+  border-bottom: 2px solid transparent !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+/* Keep non-title selected nav pages purple + underlined */
+#site-nav.greedy-nav .visible-links li.masthead__menu-item.selected:not(.site-title-item) > a,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a.active,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a[aria-current="page"] {
+  color: var(--global-base-color) !important;
+  border-bottom: 2px solid var(--global-base-color) !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+/* Keep selected nav page purple even on hover */
+#site-nav.greedy-nav .visible-links li.masthead__menu-item.selected:not(.site-title-item) > a:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a.active:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item) > a[aria-current="page"]:hover {
+  color: var(--global-base-color) !important;
+  border-bottom-color: var(--global-base-color) !important;
+}
+
+/* Regular nav links hover pink */
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item):not(.selected) > a:hover,
+#site-nav.greedy-nav .visible-links li.masthead__menu-item:not(.site-title-item):not(.selected) > a:focus {
+  color: var(--global-link-color-hover) !important;
+  border-bottom-color: var(--global-link-color-hover) !important;
+}
