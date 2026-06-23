@@ -16,7 +16,7 @@ Education
 
 Post-Graduate Residency Training
 ======
-* Capital Health Medical Center, Hopewell, NJ\ 
+* Capital Health Medical Center, Hopewell, NJ\
   Transitional Year Residency, 2026-2027 
 * University of Washington, Seattle, WA\
   Diagnostic Radiology Residency, 2027-2031 (expected)
