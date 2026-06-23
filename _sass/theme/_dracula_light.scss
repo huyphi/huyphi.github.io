@@ -1,0 +1,103 @@
+/* Dracula theme */
+
+$background-color: #282a36;
+$text-color: #f8f8f2;
+$muted-text-color: #bd93f9;
+$primary-color: #bd93f9;
+$border-color: #44475a;
+$footer-background-color: #21222c;
+$link-color: #8be9fd;
+$masthead-link-color: #f8f8f2;
+$masthead-link-color-hover: #ff79c6;
+$navicon-link-color-hover: #ff79c6;
+
+.page {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+body {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background-color: #21222c;
+}
+
+.greedy-nav a,
+.masthead a {
+  color: #f8f8f2;
+}
+
+.greedy-nav a:hover,
+.masthead a:hover {
+  color: #ff79c6;
+}
+
+.page__title,
+.archive__item-title,
+.archive__item-title a,
+.author__name,
+h1, h2, h3, h4, h5, h6 {
+  color: #f8f8f2;
+}
+
+.page__content,
+.archive,
+.archive__item,
+.sidebar,
+.author__bio {
+  color: #f8f8f2;
+}
+
+a {
+  color: #8be9fd;
+}
+
+a:hover {
+  color: #ff79c6;
+}
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+code,
+pre {
+  background-color: #21222c;
+  color: #f8f8f2;
+}
+
+table {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+thead {
+  background-color: #21222c;
+}
+
+tr,
+td,
+th {
+  border-color: #44475a;
+}
+
+.page__footer {
+  background-color: #21222c;
+  color: #f8f8f2;
+}
+
+.page__footer a {
+  color: #8be9fd;
+}
