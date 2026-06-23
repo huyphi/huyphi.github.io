@@ -172,3 +172,70 @@ a:focus {
 .greedy-nav a[aria-current="page"] {
   border-bottom: 2px solid var(--global-base-color);
 }
+
+/* ==========================================================================
+   Navbar: purple site name + active page styling
+   ========================================================================== */
+
+/* Left-most site name / your name: always purple */
+.site-title,
+.site-title:visited,
+.site-title a,
+.site-title a:visited,
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited,
+.greedy-nav .site-title a,
+.greedy-nav .site-title a:visited,
+.masthead .site-title,
+.masthead .site-title:visited,
+.masthead .site-title a,
+.masthead .site-title a:visited {
+  color: var(--global-base-color) !important;
+}
+
+/* Regular navbar links */
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead a {
+  color: var(--global-masthead-link-color) !important;
+  text-decoration: none;
+}
+
+/* Navbar hover: Dracula pink */
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a:focus,
+.masthead a:hover,
+.masthead a:focus {
+  color: var(--global-link-color-hover) !important;
+}
+
+/* Current/active navbar page: purple + underline */
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links .active a,
+.greedy-nav .visible-links li.active a,
+.greedy-nav .visible-links li.current a,
+.greedy-nav .visible-links li.current-menu-item a,
+.greedy-nav .visible-links a[aria-current="page"],
+.masthead a.active,
+.masthead .active a,
+.masthead a[aria-current="page"] {
+  color: var(--global-base-color) !important;
+  border-bottom: 2px solid var(--global-base-color);
+  padding-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+/* Keep active page purple even when hovering */
+.greedy-nav .visible-links a.active:hover,
+.greedy-nav .visible-links .active a:hover,
+.greedy-nav .visible-links li.active a:hover,
+.greedy-nav .visible-links li.current a:hover,
+.greedy-nav .visible-links a[aria-current="page"]:hover,
+.masthead a.active:hover,
+.masthead .active a:hover,
+.masthead a[aria-current="page"]:hover {
+  color: var(--global-base-color) !important;
+  border-bottom-color: var(--global-base-color);
+}
