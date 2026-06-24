@@ -46,11 +46,9 @@
         </p>
       {% endif %}
 
-      {% if post.venue %}
-        <p class="archive__item-excerpt" itemprop="description">
-          {% if post.type %}{{ post.type | capitalize }} at {% endif %}<em>{{ post.venue }}</em>{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%B %-d, %Y" }}{% endif %}
-        </p>
-      {% endif %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {% if post.type %}{{ post.type | capitalize }}{% endif %}{% if post.venue %} at <em>{{ post.venue }}</em>{% endif %}{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%B %-d, %Y" }}{% endif %}
+      </p>
 
     </li>
   </article>
