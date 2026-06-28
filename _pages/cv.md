@@ -50,7 +50,7 @@ Skills
   </div>
 
   <div class="skill-chip">
-    <i class="fa-solid fa-chart-line"></i>
+    <i class="fa-brands fa-r-project"></i>
     <span>R</span>
   </div>
 
@@ -65,12 +65,12 @@ Skills
   </div>
 
   <div class="skill-chip">
-    <i class="fa-solid fa-code"></i>
+    <i class="fa-solid fa-chart-line"></i>
     <span>Data Science & Statistics</span>
   </div>
 
   <div class="skill-chip">
-    <i class="fa-solid fa-pen-nib"></i>
+    <i class="fa-solid fa-file-lines"></i>
     <span>Scientific Writing</span>
   </div>
 

@@ -11,6 +11,6 @@ Hey! I'm an incoming diagnostic radiology resident at the University of Washingt
 
 My current interests include neuroradiology, stroke and neurovascular imaging, data science/informatics, and the intersection of medicine and technology. Along the way, I've worked on large NIH-funded oncology and pharmaceutical trials, as well as with smaller health-tech startups focused on expanding access to care through digital technology. Ultimately, I hope to build solutions that improve the care we deliver to patients.
 
-Outside of medicine, I enjoy playing video games and building mechanical keyboards. Food is also one of my greatest passions. I love cooking, obsessing over the perfect sushi rice, and trying all sorts of restaurants. Foodie section of the website coming soon.
+Outside of medicine, I enjoy playing video games and building mechanical keyboards. Food is also one of my greatest passions. I love cooking, currently obsessing over making the perfect sushi at home, and trying all sorts of restaurants. Foodie section of the website coming soon.
 
 I'm always down to collaborate, talk shop, or connect. You can reach me through any of the links in the <--- sidebar. Thanks for stopping by!
