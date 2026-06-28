@@ -11,8 +11,10 @@ redirect_from:
 
 Education
 ======
-* **MD**, Drexel University College of Medicine, 2026
-* **BS** in Neuroscience, University of Washington, 2020
+* **MD**, Drexel University College of Medicine, 2026\
+  Philadelphia, PA
+* **BS** in Neuroscience, University of Washington, 2020\
+  Seattle, WA
 
 Post-Graduate Residency Training
 ======
@@ -40,12 +42,55 @@ Work experience
   
 Skills
 ======
-* Skill 1
+<div class="skills-grid">
+
+  <div class="skill-chip">
+    <i class="fa-brands fa-python"></i>
+    <span>Python</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-chart-line"></i>
+    <span>R</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-cube"></i>
+    <span>3D Slicer</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-x-ray"></i>
+    <span>Imaging</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-code"></i>
+    <span>Data Science & Statistics</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-pen-nib"></i>
+    <span>Scientific Writing</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-database"></i>
+    <span>REDCap</span>
+  </div>
+
+  <div class="skill-chip">
+    <i class="fa-solid fa-hospital-user"></i>
+    <span>Epic</span>
+  </div>
+
+</div>
+<!-- * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
