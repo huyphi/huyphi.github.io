@@ -80,7 +80,13 @@ Skills
   </div>
 
   <div class="skill-chip">
-    <i class="fa-solid fa-sushi"></i>
+    <svg class="skill-svg-icon" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M14 34c0-9 8-16 18-16s18 7 18 16v8c0 6-8 11-18 11s-18-5-18-11v-8z"/>
+      <path d="M19 30c2-7 7-12 13-12s11 5 13 12c-3 4-8 6-13 6s-10-2-13-6z"/>
+      <path d="M25 22c2 4 2 8 0 12"/>
+      <path d="M32 19c2 5 2 11 0 17"/>
+      <path d="M39 22c2 4 2 8 0 12"/>
+    </svg>
     <span>Sushi</span>
   </div>
 
