@@ -359,3 +359,14 @@ a:focus {
 .skill-chip:hover i {
   color: var(--global-link-color-hover);
 }
+
+.skill-chip .skill-emoji {
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.skill-chip:hover .skill-emoji {
+  transform: scale(1.08);
+}

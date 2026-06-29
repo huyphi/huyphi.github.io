@@ -80,11 +80,9 @@ Skills
   </div>
 
   <div class="skill-chip">
-    <i class="fa-solid fa-hospital-user"></i>
-    <span>Epic</span>
+    <span class="skill-emoji" aria-hidden="true">🍣</span>
+    <span>Sushi</span>
   </div>
-
-</div>
 <!-- * Skill 1
 * Skill 2
   * Sub-skill 2.1
