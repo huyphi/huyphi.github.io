@@ -112,4 +112,11 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* RadDiscord\
+  Moderator, 2023-Ongoing
+
+* Radiological Society of North America\
+  Medical Student Task Force, Research Subcommittee, 2024-2025
+
+* Vietnam Health Clinic\
+  Student Member, 2017
