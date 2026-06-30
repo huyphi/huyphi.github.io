@@ -115,7 +115,7 @@ Service and leadership
 * [RadDiscord](https://www.raddiscord.org/)  
   Moderator, 2023-Ongoing
 
-* [Radiological Society of North America](https://www.rsna.org/)  
+* Radiological Society of North America 
   Medical Student Task Force, Research Subcommittee, 2024-2025
 
 * [Vietnam Health Clinic](https://www.vnhealthclinic.org/)  
