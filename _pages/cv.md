@@ -112,11 +112,19 @@ Teaching
   
 Service and leadership
 ======
-* RadDiscord\
-  Moderator, 2023-Ongoing
+<ul>
+  <li>
+    <a href="https://www.raddiscord.org/" target="_blank" rel="noopener noreferrer">RadDiscord</a><br>
+    Moderator, 2023-Ongoing
+  </li>
 
-* Radiological Society of North America\
-  Medical Student Task Force, Research Subcommittee, 2024-2025
+  <li>
+    Radiological Society of North America<br>
+    Medical Student Task Force, Research Subcommittee, 2024-2025
+  </li>
 
-* Vietnam Health Clinic\
-  Student Member, 2017
+  <li>
+    <a href="https://www.vnhealthclinic.org/" target="_blank" rel="noopener noreferrer">Vietnam Health Clinic</a><br>
+    Student Member, 2017
+  </li>
+</ul>
