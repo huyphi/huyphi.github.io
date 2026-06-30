@@ -4,7 +4,7 @@ collection: teaching
 type: "Tutoring"
 permalink: /teaching/uw-ic
 venue: "University of Washington, Office of Minority Affairs & Diversity"
-date: 2018-08-2020-08
+date: 2018-08-01
 location: "Seattle, WA"
 share: false
 ---
