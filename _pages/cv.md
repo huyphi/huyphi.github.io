@@ -39,7 +39,7 @@ Research Experience
 
 * **DigiPsych Lab, University of Washington**, 2018-2020\
   Principal Investigator: Reza Hosseini Ghomi MD, MSE
-  * Voice-derived biomarkers for neurological disease.
+  * Voice-derived biomarkers for neurological and psychiatric disease.
   
 Skills
 ======
