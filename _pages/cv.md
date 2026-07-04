@@ -11,16 +11,16 @@ redirect_from:
 
 Education
 ======
-* **MD**, Drexel University College of Medicine, 2026\
+* **MD, Drexel University College of Medicine**, 2026\
   Philadelphia, PA
-* **BS** in Neuroscience, University of Washington, 2020\
+* **BS in Neuroscience, University of Washington**, 2020\
   Seattle, WA
 
 Post-Graduate Residency Training
 ======
-* Capital Health Medical Center, Hopewell, NJ\
+* **Capital Health Medical Center**, Hopewell, NJ\
   Transitional Year Residency, 2026-2027 
-* University of Washington, Seattle, WA\
+* **University of Washington**, Seattle, WA\
   Diagnostic Radiology Residency, 2027-2031 (expected)
 
 Research Experience
@@ -113,11 +113,11 @@ Teaching
   
 Service and leadership
 ======
-* [RadDiscord](https://www.raddiscord.org/)  
+* **[RadDiscord](https://www.raddiscord.org/)**  
   Moderator, 2023-Ongoing
 
-* Radiological Society of North America\
+* **Radiological Society of North America**\
   Medical Student Task Force, Research Subcommittee, 2024-2025
 
-* [Vietnam Health Clinic](https://www.vnhealthclinic.org/)  
+* **[Vietnam Health Clinic](https://www.vnhealthclinic.org/)**  
   Student Member, 2017
