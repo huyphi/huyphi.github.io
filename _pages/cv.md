@@ -23,22 +23,23 @@ Post-Graduate Residency Training
 * University of Washington, Seattle, WA\
   Diagnostic Radiology Residency, 2027-2031 (expected)
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **[The Song Lab](https://www.thesonglabbrain.com/), University of Pennsylvania**, 2023-Present\
+  Principal Investigator: Jae W. Song MD, MS
+  * Exploring non-invasive, CT imaging biomarkers for vulnerable carotid plaque in stroke risk. 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **The Lee Lab, Fred Hutchinson Cancer Center**, 2020-2022\
+  Principal Investigator: Stephanie J. Lee MD, MPH
+  * Clinical trials studying outcomes in hematopoietic stem-cell transplant, transplant surviorship and management of graft-versus-host disease.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **BrainCheck Inc**, 2020\
+  Principal Investigator: Reza Hosseini Ghomi MD, MSE & Bin Huang, PhD
+  * Validating a computerized tablet-based cognitive testing software (BrainCheck), in patients with dementia and cognitive impairment.
+
+* **DigiPsych Lab, University of Washington**, 2018-2020\
+  Principal Investigator: Reza Hosseini Ghomi MD, MSE
+  * Voice-derived biomarkers for neurological disease.
   
 Skills
 ======
