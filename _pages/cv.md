@@ -31,7 +31,7 @@ Research Experience
 
 * **The Lee Lab, Fred Hutchinson Cancer Center**, 2020-2022\
   Principal Investigator: Stephanie J. Lee MD, MPH
-  * Clinical trials studying outcomes in hematopoietic stem-cell transplant, transplant surviorship and management of graft-versus-host disease.
+  * Clinical trials studying outcomes in hematopoietic stem-cell transplant, transplant survivorship and management of graft-versus-host disease.
 
 * **BrainCheck Inc**, 2020\
   Principal Investigator: Reza Hosseini Ghomi MD, MSE & Bin Huang, PhD
